@@ -1,4 +1,4 @@
-package org.example.HomeWork8;
+package org.example.HomeWork7;
 
 public class Lion extends Animal implements WildAnimal{
 

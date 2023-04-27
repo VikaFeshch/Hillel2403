@@ -1,4 +1,4 @@
-package org.example.HomeWork8;
+package org.example.HomeWork7;
 
 public class Wolf extends Animal implements WildAnimal{
     public Wolf(String name) {

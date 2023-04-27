@@ -1,4 +1,4 @@
-package org.example.HomeWork8;
+package org.example.HomeWork7;
 
 public class BigDog extends Dog{
     public BigDog(String name) {

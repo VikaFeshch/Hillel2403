@@ -1,4 +1,4 @@
-package org.example.HomeWork8;
+package org.example.HomeWork7;
 
 public class Dog extends Animal implements Pet{
     public Dog(String name) {

@@ -1,4 +1,4 @@
-package org.example.HomeWork8;
+package org.example.HomeWork7;
 
 public interface Pet {
     void feed();
