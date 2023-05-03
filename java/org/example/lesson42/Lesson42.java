@@ -4,6 +4,10 @@ public class Lesson42 {
     public static void main(String[] args) {
      /*   Animal animal=new Animal("Trish", 5);
         animal.printName();*/
+        Animal animal= new Bird();
+        Bird animal1 = (Bird) animal;
+        ((Bird) animal).fly();
+        animal1.fly();
         Bird bird = new Bird("Nusha", 2, true, "green");
         bird.printName();
         bird.fly();

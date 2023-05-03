@@ -4,6 +4,7 @@ public class Bird extends Animal{
     private boolean isFly;
     private String colorF;
 
+    public Bird(){};
     public Bird(String name, int age, boolean isFly, String colorF) {
         super(name, age);
         this.isFly = isFly;

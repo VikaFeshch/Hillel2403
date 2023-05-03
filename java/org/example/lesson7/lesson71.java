@@ -5,6 +5,7 @@ public class lesson71 {
         LG pult = new Pult();// var type LG
         SUMSUNG pult1 = new Pult(); // var type SUMSUNG
         Pult pult2=new Pult(); // var type Pult
+        pult.getTemperature();
         lgMethod(pult);
         SumsungMethod(pult1);
         pult2.printInfo();

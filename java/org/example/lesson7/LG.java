@@ -5,4 +5,8 @@ public interface LG {
     void minus();
     boolean powerOn();
     boolean powerOff();
+
+    public default double getTemperature() {
+        return 10.0;
+    }
 }
