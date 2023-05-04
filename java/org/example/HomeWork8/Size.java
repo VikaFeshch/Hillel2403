@@ -31,7 +31,7 @@ public enum Size {
 
     @Override
     public String toString() {
-        String str = '\u0022'+getSh()+'\u0022'+" or "+'\u0022'+this.name()+'\u0022'+" size: width="+getWidth()+", length="+getLength();
+        String str = '\u0022'+getSh()+'\u0022'+" or "+'\u0022'+this.name()+'\u0022'+"  size: width="+getWidth()+", length="+getLength();
         return str;
     }
 }

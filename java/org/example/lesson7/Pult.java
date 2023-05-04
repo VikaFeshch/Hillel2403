@@ -29,6 +29,11 @@ public class Pult implements LG,SUMSUNG {
     }
 
     @Override
+    public double getTemperature() {
+        return LG.super.getTemperature();
+    }
+
+    @Override
     public void sumsungMethod() {
         System.out.println("Sumung");
     }

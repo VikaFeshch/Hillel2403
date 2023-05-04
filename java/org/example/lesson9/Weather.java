@@ -23,6 +23,7 @@ public class Weather {
             case SPRING -> {
                 System.out.println("+10");
                 System.out.println(season.getSinoptic());
+                System.out.println(season.isB());
             }
             case FALL -> {
                 System.out.println("+8");
