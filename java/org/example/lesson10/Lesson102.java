@@ -6,6 +6,7 @@ public class Lesson102 {
     public static void main(String[] args) {
         String[] strings=new String[]{"qwe","rty","uio", "uio"};//create massive
         Set<String> ss=new TreeSet<>(Arrays.asList(strings));//create collection Set
+        System.out.println("%%%%"+ss);
 
         List<String> stringList=new ArrayList<>(Arrays.asList(strings));//create collection List
         stringList.add("lkj");
