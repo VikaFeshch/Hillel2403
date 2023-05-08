@@ -9,6 +9,11 @@ public class hw9_VikaFeshchenko_In_process {
         String string = "A bug is the consequence/outcome of a coding fault.";
         System.out.println(string);
     //    String[] massive = noCharacter(string);
+        printUniqWord((string));
+
+    }
+
+    public static void printUniqWord(String string){
         Set<String> masSet = new TreeSet<>(Arrays.asList(noCharacter(string)));
         System.out.println("%%" + masSet);
         for (String l : masSet) {
@@ -16,7 +21,6 @@ public class hw9_VikaFeshchenko_In_process {
         }
         System.out.println(" ");
     }
-
 //    finding characters and replacing their
     private static String[] noCharacter(String str) {
 

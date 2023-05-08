@@ -7,6 +7,10 @@ import java.util.TreeSet;
 public class hw9_VikaFeshchenko {
     public static void main(String[] args) {
         String string = "A bug is the consequence/outcome of a coding fault.";
+        printUniqWord(string);
+    }
+//print uniq words
+    public static void printUniqWord(String string){
         Set<String> masSet = new TreeSet<>(Arrays.asList(noCharacter(string)));
         for (String l : masSet) {
             System.out.println(capitalize(l));
