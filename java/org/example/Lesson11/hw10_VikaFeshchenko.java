@@ -9,7 +9,7 @@ public class hw10_VikaFeshchenko {
         Map<Integer, String> map = new HashMap<>();
         map.put(12, "John");
         map.put(16, "Selena");
-        map.put(20, "Kon");
+        map.put(-20, "Kon");
         map.put(2, "Karol");
         printMap(map);
     }
